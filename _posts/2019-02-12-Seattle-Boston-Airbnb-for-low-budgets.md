@@ -31,3 +31,13 @@ predictors for price. However, we do not find month to be good predictors when w
 predict prices of individual properties. The graph that was presented earlier was produced 
 by aggregating all properties. 
 
+# - Book B&B, Cabin, Chalet, Dorm, or Townhouse to save money in Seattle. 
+We performed statistical tests on the variables that we selected for Seattle. Unsurprisingly, 
+the number of bathrooms, bedrooms, beds and number of guests a property can accommodate are
+all positively correlate to the price. The larger the property and the more guests the 
+property can accommodate, the higher the price. We also found a variable that also has strong
+predictive power -- the property type. The model tells us that among all the property types,
+the price of lodging in dorms are cheapest, then in increasing order, tents, townhouses, houses,
+chalets, Other, B&B, cabins, and Bungalows. On the other hand, the price of lodging in Boats 
+are the most epxensive, then in decreasing order, Campers/RVs, lofts, condominiums, treehouses
+and yurts.
