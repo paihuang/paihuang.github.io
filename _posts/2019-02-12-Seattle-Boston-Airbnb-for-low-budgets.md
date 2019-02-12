@@ -12,4 +12,5 @@ fit in the aforementioned traveling types, read on. We have a treat for you. We 
 you, based on the analysis we perform, what are the best months to travel to these two 
 cities and the type of properties that will save you money on lodging. 
 
-![](./2019-02-12_12-51-37.png?=100x100 "Average AirBnb prices by month for Seattle and Boston"){:height="50%" width="50%"}
+<img src="./2019-02-12_12-51-37.png" width="250" height="250">
+
