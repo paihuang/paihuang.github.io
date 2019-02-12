@@ -22,7 +22,7 @@ Therefore, in Boston, AirBnb lodging prices are highest in September and October
 October/early November will on average, save $40 a night compared to the peak season and also have a chance to
 see the early sign or late phase of the fall foliage.
 
-![](./2019-02-12_12-51-37.png)
+![Image](./2019-02-12_12-51-37.png)
 
 # - Data that we have does not suggest that month is a good predictor for price. 
 Based on the data we get, we try to build a predictive model for price on month, property 
