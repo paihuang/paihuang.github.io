@@ -41,3 +41,16 @@ the price of lodging in dorms are cheapest, then in increasing order, tents, tow
 chalets, Other, B&B, cabins, and Bungalows. On the other hand, the price of lodging in Boats 
 are the most epxensive, then in decreasing order, Campers/RVs, lofts, condominiums, treehouses
 and yurts.
+
+# - Book B&B, Campers/RVs, dorms, entire floor, houses, townhouses, or villas to save money in Boston.
+Similar to the ledging prices in Seattle, the lodging prices in Boston also positively correlate to
+numbe of bathrooms, bedrooms, beds and the number of guests the property can accomodate. In addition,
+property type also plays an essential role in the price of the lodging properties. The model tells us
+that among all the property types, the price of lodging in Campers/RVs are cheapest, then in 
+increasing order: properties offering the entire floor, dorms, houses, villas, townhouses, B&B, 
+and boats. On the other hand, the price of lodging in guesthouses are the most expensive, then in 
+decreasing order, lofts, condominiums, and other. 
+
+Our analysis also reveals that currently, based on the variables we have, the model still does not have
+very strong predictive power. We hope to further incorporate more variables, such as amenities provided, 
+into the models and see if we can gain greater insights into the data.
