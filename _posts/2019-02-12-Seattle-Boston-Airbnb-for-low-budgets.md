@@ -4,6 +4,8 @@ title: "Book AirBnb for Seattle or Boston in these months to get the bang of our
 date: 2019-02-12
 ---
 
+![](/images/Seattle_Boston.jpg)
+
 Some travelers have a tight budget. Some others travel not to go sightseeing but to spend
 time with family or friends. They do not need the weather to be gorgeous. They want to 
 travel with a low cost. We obtained some AirBnb lodging price data for Seattle and Boston 
@@ -54,3 +56,5 @@ decreasing order, lofts, condominiums, and other.
 Our analysis also reveals that currently, based on the variables we have, the model still does not have
 very strong predictive power. We hope to further incorporate more variables, such as amenities provided, 
 into the models and see if we can gain greater insights into the data.
+
+<Disclaimer> The first Boston and Seattle picture is downloaded from https://www.cnbc.com/2015/01/29/who-wins-super-bowl-of-housing-seattle-or-boston.html. 
