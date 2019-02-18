@@ -72,6 +72,8 @@ statistically insignificant.
 | Townhouse       | -38.75      | 0       |
 | Treehouse       | 9.77        | 0.79    |
 | Yurt            | 1.75        | 0.98    |
+
+
 # - Book B&B, Campers/RVs, dorms, entire floor, houses, townhouses, or villas to save money in Boston.
 Similar to the lodging prices in Seattle, the lodging prices in Boston also positively correlate to
 numbe of bathrooms, bedrooms, beds and the number of guests the property can accomodate. In addition,
