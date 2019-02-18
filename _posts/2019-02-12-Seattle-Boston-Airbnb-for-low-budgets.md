@@ -42,16 +42,61 @@ predictive power -- the property type. The model tells us that among all the pro
 the price of lodging in dorms are cheapest, then in increasing order, tents, townhouses, houses,
 chalets, Other, B&B, cabins, and Bungalows. On the other hand, the price of lodging in Boats 
 are the most epxensive, then in decreasing order, Campers/RVs, lofts, condominiums, treehouses
-and yurts.
+and yurts. Since we have processed our numerical variables, to avoid confusion, in the following 
+table, we do not provide the regression coefficients of the numerical variables. We instead 
+provide the regression coefficients of each property type along with their p-values. The way 
+to interpret the coefficient of each property type is that, imagine everything being equal (i.e.
+same number of rooms, same number of beds etc), there is an "average" price, represented by the
+model line. The coefficient of each property is then added (if positive) or subtracted (if negative)
+from the average price to arrive at the predicted price. That way, we know the more negative a 
+coefficient for a corresponding property type, the more money a fellow traveler can save by 
+booking such property type. The p-value, on the other hand, tells the fellow traveler how important,
+or in statistical terms, how significant, each property type contributes to the final predicted price.
+The closer the p-value is to 0, the more significant it is. Any p-value above 0.05 is considered 
+statistically insignificant. 
 
+| Property type   | Coefficient | p-value |
+|-----------------|-------------|---------|
+| Bed & Breakfast | -19.96      | 0.07    |
+| Boat            | 102.87      | 0       |
+| Bungalow        | -6.50       | 0.72    |
+| Cabin           | -10.40      | 0.47    |
+| Camper/RV       | 13.76       | 0.44    |
+| Chalet          | -27.31      | 0.54    |
+| Condominium     | 10.55       | 0.13    |
+| Dorm            | -308.68     | 0       |
+| House           | -32.19      | 0       |
+| Loft            | 12.75       | 0.22    |
+| Other           | -21.32      | 0.12    |
+| Tent            | -48.82      | 0.13    |
+| Townhouse       | -38.75      | 0       |
+| Treehouse       | 9.77        | 0.79    |
+| Yurt            | 1.75        | 0.98    |
 # - Book B&B, Campers/RVs, dorms, entire floor, houses, townhouses, or villas to save money in Boston.
-Similar to the ledging prices in Seattle, the lodging prices in Boston also positively correlate to
+Similar to the lodging prices in Seattle, the lodging prices in Boston also positively correlate to
 numbe of bathrooms, bedrooms, beds and the number of guests the property can accomodate. In addition,
 property type also plays an essential role in the price of the lodging properties. The model tells us
 that among all the property types, the price of lodging in Campers/RVs are cheapest, then in 
 increasing order: properties offering the entire floor, dorms, houses, villas, townhouses, B&B, 
 and boats. On the other hand, the price of lodging in guesthouses are the most expensive, then in 
-decreasing order, lofts, condominiums, and other. 
+decreasing order, lofts, condominiums, and other. Similar to the analysis we provided for Seattle, in 
+the following table, we provide the regression coefficient and the p-value of each property type. 
+
+| Property type   | Coefficient | p-value |
+|-----------------|-------------|---------|
+| Bed & Breakfast | -27.27      | 0.17    |
+| Boat            | -15.52      | 0.67    |
+| Camper/RV       | -163.89     | 0.19    |
+| Condominium     | 7.62        | 0.43    |
+| Dorm            | -64.22      | 0.60    |
+| Entire Floor    | -93.06      | 0.19    |
+| Guest House     | 67.37       | 0.59    |
+| House           | -61.72      | 0       |
+| Loft            | 42.71       | 0.06    |
+| Other           | 7.22        | 0.83    |
+| Townhouse       | -28.63      | 0.11    |
+| Villa           | -37.68      | 0.67    |
+
 
 Our analysis also reveals that currently, based on the variables we have, the model still does not have
 very strong predictive power. We hope to further incorporate more variables, such as amenities provided, 
